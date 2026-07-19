@@ -1,22 +1,25 @@
 """
-LeetCode #167 - Two Sum II (Input Array Is Sorted)
-Same as Two Sum, but the array is sorted and answer is 1-indexed.
-Pattern: Two Pointers (opposite ends, closing inward)
+LeetCode #125 - Valid Palindrome
+Determine if a string is a palindrome, considering only alphanumeric
+characters and ignoring case.
+Pattern: Two Pointers (mirror check)
 """
 
-def twoSum(numbers, target):
-    left = 0
-    right = len(numbers) - 1
-    while right >= left:
-        total = numbers[left] + numbers[right]
-        if total > target:
-            right -= 1
-        elif total < target:
+def isPalindrome(s):
+    left, right, s = 0, len(s) - 1, s.lower()
+    while left < right:
+        if not s[left].isalnum():
             left += 1
+        elif not s[right].isalnum():
+            right -= 1
+        elif s[right] == s[left]:
+            left += 1
+            right -= 1
         else:
-            return [left + 1, right + 1]
-    return -1
+            return False
+    return True
 
 if __name__ == "__main__":
-    print(twoSum([1, 3, 4, 6, 10], 10))  # [3, 4]
-    print(twoSum([2, 7, 11, 15], 9))     # [1, 2]
+    print(isPalindrome("A man, a plan, a canal: Panama"))  # True
+    print(isPalindrome("race a car"))                       # False
+    print(isPalindrome("123"))                               # False
