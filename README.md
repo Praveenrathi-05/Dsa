@@ -38,8 +38,6 @@ Each problem is its own file, numbered in the order I solved it. Every file incl
 | 17 | Tries | 0 / 7 |
 | 18 | Strings (Advanced) | 0 / 9 |
 
-*(Update this table as you go — it's the fastest way to see progress at a glance.)*
-
 > **Note:** the recursion warm-ups solved so far (Print GFG N Times, Print 1 to N, Print N to 1, Sum of First N, Factorial, Fibonacci) are part of **Learn the Basics** (row 1) — not row 7, "Recursion." That's a separate, much bigger step (~25 problems) that comes later, after Arrays, Binary Search, Strings, and Linked List, and goes deeper into pattern-based recursion (subsequences, subsets) building toward Backtracking.
 
 ## Also solved — LeetCode patterns
