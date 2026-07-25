@@ -21,7 +21,7 @@ Each problem is its own file, numbered in the order I solved it. Every file incl
 |---|---|---|
 | 1 | Learn the Basics | 18 / 54 |
 | 2 | Sorting Techniques | 7 / 7 |
-| 3 | Arrays | 0 / 40 |
+| 3 | Arrays | 7 / 40 |
 | 4 | Binary Search | 0 / 32 |
 | 5 | Strings (Basic) | 0 / 15 |
 | 6 | Linked List | 0 / 31 |
