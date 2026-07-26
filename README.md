@@ -21,7 +21,7 @@ Each problem is its own file, numbered in the order I solved it. Every file incl
 |---|---|---|
 | 1 | Learn the Basics | 18 / 54 |
 | 2 | Sorting Techniques | 7 / 7 |
-| 3 | Arrays | 7 / 40 |
+| 3 | Arrays | 12 / 40 |
 | 4 | Binary Search | 0 / 32 |
 | 5 | Strings (Basic) | 0 / 15 |
 | 6 | Linked List | 0 / 31 |
@@ -39,6 +39,21 @@ Each problem is its own file, numbered in the order I solved it. Every file incl
 | 18 | Strings (Advanced) | 0 / 9 |
 
 > **Note:** the recursion warm-ups solved so far (Print GFG N Times, Print 1 to N, Print N to 1, Sum of First N, Factorial, Fibonacci) are part of **Learn the Basics** (row 1) — not row 7, "Recursion." That's a separate, much bigger step (~25 problems) that comes later, after Arrays, Binary Search, Strings, and Linked List, and goes deeper into pattern-based recursion (subsequences, subsets) building toward Backtracking.
+
+### Arrays — solved so far (Step 3)
+
+39. Largest Element in an Array
+40. Second Largest Element in an Array Without Sorting
+41. Check if Array is Sorted
+42. Remove Duplicates from Sorted Array (LC 26)
+43. Left Rotate Array by One Place
+44. Left Rotate Array by D Places (incl. LC 189, Rotate Array — three-reversal trick)
+45. Move Zeroes to End (LC 283)
+46. Linear Search
+47. Find the Union of Two Sorted Arrays
+48. Find Missing Number in an Array (LC 268)
+49. Maximum Consecutive Ones (LC 485)
+50. Find the Number That Appears Once, Others Twice (LC 136)
 
 ## Also solved — LeetCode patterns
 
