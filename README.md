@@ -8,12 +8,9 @@ Each problem is its own file, numbered in the order I solved it. Every file incl
 - The problem statement as a docstring, with source (LeetCode / GeeksforGeeks / Code360)
 - The final, tested solution
 - A few verified test cases at the bottom (`if __name__ == "__main__":`)
-
-```
 01_two_sum.py
 02_binary_search.py
 ...
-```
 
 ## Progress — Striver's A2Z Sheet
 
@@ -21,7 +18,7 @@ Each problem is its own file, numbered in the order I solved it. Every file incl
 |---|---|---|
 | 1 | Learn the Basics | 18 / 54 |
 | 2 | Sorting Techniques | 7 / 7 |
-| 3 | Arrays | 12 / 40 |
+| 3 | Arrays | 19 / 40 |
 | 4 | Binary Search | 0 / 32 |
 | 5 | Strings (Basic) | 0 / 15 |
 | 6 | Linked List | 0 / 31 |
@@ -54,6 +51,13 @@ Each problem is its own file, numbered in the order I solved it. Every file incl
 48. Find Missing Number in an Array (LC 268)
 49. Maximum Consecutive Ones (LC 485)
 50. Find the Number That Appears Once, Others Twice (LC 136)
+51. Longest Subarray with Sum K (Positives and Negatives)
+52. Two Sum (LC 1)
+53. Sort an Array of 0s, 1s, and 2s / Dutch National Flag (LC 75)
+54. Majority Element, >n/2 times (LC 169)
+55. Kadane's Algorithm — Maximum Subarray Sum (LC 53)
+56. Print Subarray with Maximum Subarray Sum
+57. Best Time to Buy and Sell Stock (LC 121)
 
 ## Also solved — LeetCode patterns
 
